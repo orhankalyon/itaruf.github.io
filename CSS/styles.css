@@ -145,6 +145,16 @@ h1 {
         width: 100% !important;
         padding: 0% 2em 0% 2em;
     }
+    .showcase-container {
+        display: contents;
+    }
+    .video-section-left {
+        flex: 0;
+        box-sizing: border-box;
+        align-self: center;
+        margin-left: 3em;
+        /* margin-right: 3em; */
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -155,6 +165,17 @@ h1 {
         background: transparent;
         width: 100% !important;
         padding: 0% 5em 0% 5em;
+    }
+    .showcase-container {
+        display: contents;
+    }
+
+    .video-section-left {
+        flex: 0;
+        box-sizing: border-box;
+        align-self: center;
+        margin-left: 3em;
+        /* margin-right: 3em; */
     }
 }
 
