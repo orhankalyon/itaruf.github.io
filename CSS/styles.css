@@ -153,8 +153,22 @@ h1 {
         box-sizing: border-box;
         align-self: center;
         margin-left: 3em;
-        /* margin-right: 3em; */
     }
+
+    .flex-container-game-development {
+        display: contents;
+        align-items: center;
+        border-color: #0d032ced;
+        overflow: hidden;
+        text-align: justify;
+    }
+
+   /* .cover-image {
+        max-height: 48em;
+        max-width: 48em;
+        margin-right: 4em;
+        margin-left: 3em;
+    }*/
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -175,7 +189,13 @@ h1 {
         box-sizing: border-box;
         align-self: center;
         margin-left: 3em;
-        /* margin-right: 3em; */
+    }
+    .flex-container-game-development {
+        display: contents;
+        align-items: center;
+        border-color: #0d032ced;
+        overflow: hidden;
+        text-align: justify;
     }
 }
 
@@ -198,7 +218,14 @@ h1 {
         box-sizing: border-box;
         align-self: center;
         margin-left: 3em;
-        /* margin-right: 3em; */
+    }
+
+    .flex-container-game-development {
+        display: contents;
+        align-items: center;
+        border-color: #0d032ced;
+        overflow: hidden;
+        text-align: justify;
     }
 }
 
@@ -226,7 +253,14 @@ h1 {
         box-sizing: border-box;
         align-self: center;
         margin-left: 3em;
-        /* margin-right: 3em; */
+    }
+
+    .flex-container-game-development {
+        display: contents;
+        align-items: center;
+        border-color: #0d032ced;
+        overflow: hidden;
+        text-align: justify;
     }
 }
 
@@ -250,6 +284,14 @@ h1 {
         align-self: center;
         margin-left: 3em;
         margin-right: 3em;
+    }
+
+    .flex-container-game-development {
+        display: flex;
+        align-items: center;
+        border-color: #0d032ced;
+        overflow: hidden;
+        text-align: justify;
     }
 }
 
@@ -521,14 +563,14 @@ highlight {
     overflow: hidden;
 }
 
-.flex-container-game-development {
+/*.flex-container-game-development {
     display: flex;
     align-items: center;
     border-color: #0d032ced;
-    overflow: hidden;
+    overflow: hidden;*/
     /*justify-content: space-evenly;*/
-    text-align: justify;
-}
+    /*text-align: justify;
+}*/
 
 .flex-container-list {
     align-items: normal;
