@@ -658,7 +658,6 @@ highlight {
     display: contents;
 }
 #presentation {
-    
 }
 
 #about-title {
@@ -691,6 +690,7 @@ highlight {
     font-size: 1.7em;
     color: white;
     font-family: "Amaranth", Arial, sans-serif;
+    cursor: pointer;
 }
 
 p span {
