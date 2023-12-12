@@ -163,12 +163,13 @@ h1 {
         text-align: justify;
     }
 
-   /* .cover-image {
-        max-height: 48em;
-        max-width: 48em;
-        margin-right: 4em;
-        margin-left: 3em;
-    }*/
+    .showcase-gif {
+        text-align: center;
+        width: 32em;
+        height: 32em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -190,12 +191,21 @@ h1 {
         align-self: center;
         margin-left: 3em;
     }
+
     .flex-container-game-development {
         display: contents;
         align-items: center;
         border-color: #0d032ced;
         overflow: hidden;
         text-align: justify;
+    }
+
+    .showcase-gif {
+        text-align: center;
+        width: 32em;
+        height: 32em;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 
@@ -226,6 +236,14 @@ h1 {
         border-color: #0d032ced;
         overflow: hidden;
         text-align: justify;
+    }
+
+    .showcase-gif {
+        text-align: center;
+        width: 32em;
+        height: 32em;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 
@@ -262,6 +280,14 @@ h1 {
         overflow: hidden;
         text-align: justify;
     }
+
+    .showcase-gif {
+        text-align: center;
+        width: 32em;
+        height: 32em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -292,6 +318,12 @@ h1 {
         border-color: #0d032ced;
         overflow: hidden;
         text-align: justify;
+    }
+
+    .showcase-gif {
+        text-align: center;
+        width: 32em;
+        height: 32em;
     }
 }
 
@@ -557,24 +589,12 @@ highlight {
 .flex-container {
     display: flex;
     align-items: center;
-    /*padding: 0% 2% 0% 3em;*/
     border-color: #0d032ced;
-    /*margin-bottom: 3%;*/
     overflow: hidden;
 }
 
-/*.flex-container-game-development {
-    display: flex;
-    align-items: center;
-    border-color: #0d032ced;
-    overflow: hidden;*/
-    /*justify-content: space-evenly;*/
-    /*text-align: justify;
-}*/
-
 .flex-container-list {
     align-items: normal;
-    /*justify-content: space-between;*/
     list-style-type: none !important;
     display: flex;
     padding-right: 3%;
@@ -668,7 +688,7 @@ highlight {
 }
 
 .nav-item {
-    font-size: 1.4em;
+    font-size: 1.7em;
     color: white;
     font-family: "Amaranth", Arial, sans-serif;
 }
@@ -839,6 +859,7 @@ h1 span {
     max-width: 48em;
     margin-right: 4em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .miss-neville-cover-image {
@@ -846,6 +867,7 @@ h1 span {
     max-width: 32em;
     margin-right: 5em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .gone-rogue-cover-image {
@@ -853,6 +875,7 @@ h1 span {
     max-width: 48em;
     margin-right: 5em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .hat-x3-cover-image {
@@ -860,6 +883,7 @@ h1 span {
     max-width: 32em;
     margin-right: 5em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .ac-mirage-cover-image {
@@ -867,6 +891,7 @@ h1 span {
     max-width: 32em;
     margin-right: 5em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .ubisoft-cover-image {
@@ -874,6 +899,7 @@ h1 span {
     max-width: 16em;
     margin-right: 4em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .iim-cover-image {
@@ -881,6 +907,7 @@ h1 span {
     max-width: 16em;
     margin-right: 4em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .universite-cover-image {
@@ -888,6 +915,7 @@ h1 span {
     max-width: 12em;
     margin-right: 2em;
     margin-left: 3em;
+    margin-top: 1em;
 }
 
 .showcase-image {
@@ -902,11 +930,11 @@ h1 span {
         text-align: center;
     }
 
-.showcase-gif {
+/*.showcase-gif {
     text-align: center;
     width: 32em;
     height: 32em;
-}
+}*/
 
 .ubisoft-logo {
     width: 80px;
