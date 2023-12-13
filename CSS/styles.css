@@ -1130,6 +1130,10 @@ i {
     font-size: 0.8em;
 }
 
+.bubbly-button > .bi-file-earmark-text-fill {
+    font-size: 1.6em;
+}
+
 .bubbly-button {
     font-family: 'Helvetica', 'Arial', sans-serif;
     display: inline-block;
