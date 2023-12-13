@@ -378,6 +378,13 @@ h1 {
        font-weight: bold;
     }
 
+.section-contacts > .skill-list li {
+    color: blue;
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+    text-align: center;
+    margin-top: 1em;
+}
+
 .bi {
     color: #fff187;
     padding-right: 0.4em;
@@ -960,11 +967,13 @@ h1 span {
     background: #0d032ced;
     border-bottom: 1px solid rgb(236 236 236 / 40%);
 }
+
 .overlay > h2 
 {
     font-size: 2.5em;
     margin: auto;
 }
+
 .videoBackgroundWrapper {
     position: relative;
     width: 100%;
