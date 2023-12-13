@@ -606,17 +606,14 @@ highlight {
     flex: 1;
 }  
  
-#menu {
-    padding: 0 7%;
-}
-
-#menu,
-.navbar {
+#menu, .navbar {
     background: #0f062e;
     color: white;
     font-family: "Helvetica Neue", Arial, sans-serif;
     border-bottom: 1px solid rgb(236 236 236 / 40%);
+    position: relative;
 }
+
 .navbar:hover {
     color: white;
     opacity: 1;
@@ -961,8 +958,6 @@ h1 span {
     font-size: 0.95em;
     visibility: hidden;
     background: #0d032ced;
-    /*background: transparent;*/
-    padding-top: 2em;
     border-bottom: 1px solid rgb(236 236 236 / 40%);
 }
 .overlay > h2 
